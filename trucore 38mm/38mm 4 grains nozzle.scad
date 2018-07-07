@@ -12,7 +12,10 @@ oring_depth=2.9;
 oring_height=3.8;
 nozzle_shoulder_diameter = 32;
 nozzle_shoulder_length = 7;
-nozzle_exit_diameter = 17;
+nozzle_exit_diameter = 16;
+nozzle_exit_cone_height = 14.21;
+nozzle_in_diameter = 24.5;
+nozzle_in_height = 7;
 
 $fn=150;
 difference () {
@@ -29,7 +32,7 @@ difference () {
     //nozzle throat
     cylinder(r=nozzle_throat/2, h=nozzle_length);
 
-    //translate([0,0,21+ 13])sphere(r= 13);
-    translate([0,0,21])cylinder(r1 = nozzle_throat/2, r2= 26/2, h = nozzle_length -21);
-    cylinder(r1=nozzle_exit_diameter/2, r2 =nozzle_throat/2, h = 16);
+  
+    translate([0,0,nozzle_length-nozzle_in_height])cylinder(r1 = nozzle_throat/2, r2= nozzle_in_diameter/2, h = nozzle_in_height);
+    cylinder(r1=nozzle_exit_diameter/2, r2 =nozzle_throat/2, h = nozzle_exit_cone_height);
 }

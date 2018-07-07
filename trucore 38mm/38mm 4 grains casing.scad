@@ -9,7 +9,7 @@ part: casing
 */
 casing_outside_diameter=38;
 casing_inside_diameter=33.7;
-casing_lenght=290;
+casing_lenght=287;
 casing_retainer_height=10;
 $fn= 150;
 difference() {
@@ -20,11 +20,12 @@ difference() {
         
         // Circlip for the casing retainer 
         translate([0,0,(casing_lenght -casing_retainer_height )]) 
-        difference(){cylinder (r=casing_outside_diameter/2, h = 1.5);
+        difference(){
+            cylinder (r=casing_outside_diameter/2, h = 1.5);
             cylinder (r=(casing_outside_diameter-1)/2, h = 1.5);
-            }
+        }
     }
     // Circlip for the nozzle and forward plug
-    translate([0,0,(casing_lenght -6 )]) cylinder(r =37/2, h= 2);
-    translate([0,0,4 ]) cylinder(r =37/2, h= 2);
+    translate([0,0,(casing_lenght -6 )]) cylinder(r =(casing_outside_diameter-2)/2, h= 1.5);
+    translate([0,0,4 ]) cylinder(r =(casing_outside_diameter-2)/2, h= 1.5);
 }

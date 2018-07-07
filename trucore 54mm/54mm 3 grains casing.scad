@@ -2,13 +2,13 @@
 
 Description: As it looks like Trucore hardware is no longer available, this is an attempt to model the truCore motors so that rocketers can get spare parts with help from a machinist
 Author: Boris du Reau
-motor type: 4 grains 54 mm
+motor type: 3 grains 54 mm
 part: casing
 */
 $fn= 150;
 casing_outside_diameter=54;
 casing_inside_diameter=49.2;
-casing_lenght=411;
+casing_lenght=328.93;
 casing_retainer_height=9.5;
 casing_retainer_diameter=58;
 difference() {

@@ -8,7 +8,7 @@ part: casing
 */
 $fn= 150;
 casing_outside_diameter=29;
-casing_inside_diameter=26;
+casing_inside_diameter=25.5;
 casing_lenght=178.5;
 casing_retainer_height=10;
 

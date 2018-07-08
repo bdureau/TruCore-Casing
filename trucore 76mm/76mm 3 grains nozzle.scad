@@ -5,17 +5,17 @@ Author: Boris du Reau
 motor type: 3 grains 76 mm
 part: nozzle
 */
-nozzle_length= 56;
+nozzle_length= 57.36;
 nozzle_throat= 15.77;
 nozzle_exit_diameter = 35;
 nozzle_outside_diam = 69.49;
-nozzle_exit_cone_height =27.54;
+nozzle_exit_cone_height =36.36;
 oring_depth=3;
 oring_height=4;
 nozzle_shoulder_diameter = 66.23;
 nozzle_shoulder_length = 15;
 nozzle_in_diameter = 54.23;
-nozzle_in_height = 11.54;
+nozzle_in_height = 18.36;
 
 $fn=150;
 difference () {

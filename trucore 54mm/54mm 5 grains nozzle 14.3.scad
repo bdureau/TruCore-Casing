@@ -2,20 +2,20 @@
 
 Description: As it looks like Trucore hardware is no longer available, this is an attempt to model the truCore motors so that rocketers can get spare parts with help from a machinist
 Author: Boris du Reau
-motor type: 6 grains 54 mm
+motor type: 5 grains 54 mm
 part: nozzle
 */
 nozzle_length= 44.45;
-nozzle_throat= 17.47;
-nozzle_exit_diameter = 33;
+nozzle_throat= 14.3;
+nozzle_exit_diameter = 25.86;
 nozzle_outside_diam = 48.8;
-nozzle_exit_cone_height =30;
+nozzle_exit_cone_height =21.59;
 oring_depth=2.9;
 oring_height=3.8;
 nozzle_shoulder_diameter = 46.5;
 nozzle_shoulder_length = 8;
-nozzle_in_diameter = 38.48;
-nozzle_in_height = 11;
+nozzle_in_diameter = 37;
+nozzle_in_height = 11.54;
 
 $fn=150;
 difference () {

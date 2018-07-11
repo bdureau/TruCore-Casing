@@ -6,3 +6,5 @@ Casing is made of aluminium and nozzle is made of graphite.
 I do need help for the parts that I am missing so if you own any of the truCore casing can you please email me the measurements.
 
 <img src="/photos/BrandX_2429_kitsml.jpg" width="49%">
+
+Note that you can still get some casting supply from [The Tru Core web site](http://www.rocketsaway.com/)
